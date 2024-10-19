@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+  background-color: darkgrey;
+  color: indigo;
+  border: 3px solid indigo;
+  position: fixed;
+  width: 100%;
+
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+.head-button {
+  display: flex;
+  justify-content: end;
+ font-weight: bold;
+  font-size: 25px;
+  padding: 4px;
+  gap: 50px;
+
+}
+.footer {
+  background-color: darkgrey;
+  color: indigo;
+  border: 3px solid rgb(189, 123, 236);
+  margin-top: 40px;
+  display: flex;
+  justify-content: last baseline;
+  align-items: end;
+  margin-top: auto;
+
+}
+.courses{
+  padding-top: 60px;
+}
+.contact{
+  padding-top: 60px;
+}
+.aboutUs {
+  padding-top: 60px;
+}
+.footer-button {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  gap: 100px;
+  width: 100%;
+  height: 200px;
+
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+h1{
+  font-size: 30px;
+}
+.image{
+  margin-bottom: 10px;
+  width: 100%;
+  height:400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
